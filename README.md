@@ -21,7 +21,7 @@ use IPFind\IPFind;
 $ipfind = new IPfind();
 $result = $ipfind->fetchIPAddress('8.8.8.8');
 var_dump($result);
-// add records to the log
+
 /*
 object(stdClass)#2 (14) {
   ["ip_address"]=>
