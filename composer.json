@@ -1,5 +1,5 @@
 {    
-    "name": "tenfef/IPFind-PHP",
+    "name": "tenfef/ipfind-php",
     "description": "PHP Library to fetch location information from an IP Address",
     "type": "library",
     "license": "MIT",
