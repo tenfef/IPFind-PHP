@@ -17,7 +17,7 @@
         }
     ],
     "require": {},
-    "autoload": {
-        "psr-4": {"IPFind\\": "src/IPFind"}
+    "psr-4": {
+        "Tenfef\\IPFind\\": "src/"
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace IPFind;
+namespace Tenfef\IPFind;
 
 use Exception;
 
