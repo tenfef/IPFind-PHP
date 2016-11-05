@@ -7,7 +7,7 @@ A simple class for getting a users location from their IP Address. The class use
 Install the latest version with
 
 ```bash
-$ composer require tenfef/IPFind-PHP
+$ composer require tenfef/ipfind-php
 ```
 
 ## Basic Usage
