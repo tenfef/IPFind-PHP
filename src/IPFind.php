@@ -26,7 +26,7 @@ class IPFind
     		throw new InvalidIPAddressException("Invalid IP Address: " . $ipAddress);
     	}
 
-    	$query = ['ip' => $ipAddress];
+    	$query = array('ip' => $ipAddress);
     	if ($this->apiKey)
     	{
     		$query['auth'] = $this->apiKey;

@@ -7,7 +7,8 @@
         "ip find",
         "ipfind",
         "IP Address lookup",
-        "IP address geolocation"
+        "IP address geolocation",
+        "IP address reverse lookup api",
     ],
     "authors": [
         {
@@ -15,5 +16,8 @@
             "email": "contact@ipfind.co"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"IPFind\\": "src/IPFind"}
+    }
 }
