@@ -1,0 +1,19 @@
+{    
+    "name": "tenfef/IPFind-PHP",
+    "description": "PHP Library to fetch location information from an IP Address",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "ip find",
+        "ipfind",
+        "IP Address lookup",
+        "IP address geolocation"
+    ],
+    "authors": [
+        {
+            "name": "Jordan Clist",
+            "email": "contact@ipfind.co"
+        }
+    ],
+    "require": {}
+}
