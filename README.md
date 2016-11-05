@@ -15,7 +15,7 @@ $ composer require tenfef/ipfind-php
 ```php
 <?php
 
-use IPFind\IPFind;
+use Tenfef\IPFind\IPFind;
 
 // create a log channel
 $ipfind = new IPfind();
