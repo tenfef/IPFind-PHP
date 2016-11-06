@@ -17,8 +17,8 @@ $ composer require tenfef/ipfind-php
 
 use Tenfef\IPFind\IPFind;
 
-// create a log channel
-$ipfind = new IPFind();
+$apiKey = "YOUR_API_KEY_HERE"; // get an API key from https://ipfind.co
+$ipfind = new IPFind($apiKey);
 $result = $ipfind->fetchIPAddress('8.8.8.8');
 var_dump($result);
 
